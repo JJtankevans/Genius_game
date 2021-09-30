@@ -115,8 +115,8 @@ let gameOver = () => {
         pts = score * 20
     }
     defeat.innerHTML = `
-    <h2>Você perdeu no nível ${score}!</h2>
-    <h3>Com ${pts} pontos</h3>
+    <h2 id="GO">Você perdeu no nível ${score}!</h2>
+    <h3 id="GO">Com ${pts} pontos</h3>
     <button onclick="playGame()">Restart</button>`;
     order = [];
     clickedOrder = [];

@@ -1,12 +1,15 @@
 body {
     margin: 0;
     background-color: rgb(208,255,239);
+    background-repeat: no-repeat;
+    background-image:url(https://images7.alphacoders.com/115/1154544.jpg) ;
 }
 
 header, h1, p{
     margin: 10px 0 0 0;
     display: grid;
     justify-content: center;
+    color: blueviolet;
 }
 button {
     width: 100px;
@@ -21,6 +24,7 @@ button {
 
 .points h2, h3 {
     margin: 0;
+    color: blueviolet;
 }
 
 .points {
@@ -32,12 +36,16 @@ button {
     margin: 0;
 }
 
+#GO{
+    color: rgb(167, 117, 117);
+}
+
 .game-over {
     display: grid;
     margin: 0;
     align-items: center;
     justify-content: center;
-    color: indianred;
+
 }
 
 .main-game {
@@ -53,8 +61,8 @@ button {
     grid-template-areas: 'verde vermelho'
     'amarelo azul';
     grid-gap: 10px;
-    border: 1px spçod #ffffff;
-    background-color: #ffffff;
+    border: 1px solid black;
+    background-color: white;
     border-radius: 100%;
     width: 700px;
     height: 700px;
